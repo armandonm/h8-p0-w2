@@ -1,0 +1,39 @@
+1. 
+STORE "mass" with 600 kg
+STORE "acceleration" with 2 m/s2
+STORE "force" without any value
+
+CALCULATE "mass" times "acceleration"
+SET "force" value with calculation result
+
+DISPLAY "force"
+
+2.
+STORE "year" to any number
+
+IF "year" mod 4 equals to 0 AND "year" mod 100 not equal to 0
+  DO "leap year" 
+ELSE IF "year" mod 4 equals to 0 AND "year" mod 100 equal to 0 AND "year" mod 400 equal to 0
+  DO "leap year"
+ELSE
+  DO "not a leap year"
+
+3.
+STORE "clothes" with 20
+
+WHILE "clothes" > 0
+SUBTRACT "clothes" by 1
+
+DO "turn the washing machine on"
+
+4.
+STORE "student" with 'long nails'
+STORE "students" with 40
+
+WHILE "students" > 0
+SUBTRACT "students" by 1
+
+IF "student === long nails"
+  DO "punish"
+ELSE
+  DO "praise"
