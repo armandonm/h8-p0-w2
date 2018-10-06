@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1. 
 STORE "mass" with 600 kg
 STORE "acceleration" with 2 m/s2
@@ -49,3 +50,56 @@ Algoritma :
 1.Simpan students dengan nilai 40
 2.Selama students lebih dari 0, kurangi students dengan 1
 3.Jika students memiliki kuku panjang maka dihukum, Selain itu dipuji
+=======
+1. 
+STORE "mass" with 600 kg
+STORE "acceleration" with 2 m/s2
+STORE "force" without any value
+
+CALCULATE "mass" times "acceleration"
+SET "force" value with calculation result
+
+DISPLAY "force"
+
+2.
+STORE "year" to any number
+
+IF "year" mod 4 equals to 0 AND "year" mod 100 not equal to 0
+  DO "leap year" 
+ELSE IF "year" mod 4 equals to 0 AND "year" mod 100 equal to 0 AND "year" mod 400 equal to 0
+  DO "leap year"
+ELSE
+  DO "not a leap year"
+
+3.
+STORE "clothes" with 1
+
+WHILE "clothes" <=20
+DISPLAY "pakaian ke- " + clothes
+ADD "clothes" by 1
+
+IF i = 20
+DO "turn the washing machine on"
+
+Algoritma :
+1.Simpan clothes dengan nilai 1
+2.Selama clothes kurang dari 20, tambah clothes dengan 1
+3.Tampilkan jumlah clothes sekarang
+4.Jika clothes sama dengan 20 maka hidupkan mesin
+
+
+4.
+STORE "students" with 40
+
+WHILE "students" > 0
+SUBTRACT "students" by 1
+IF "student === long nails"
+  DO "punish"
+ELSE
+  DO "praise"
+
+Algoritma :
+1.Simpan students dengan nilai 40
+2.Selama students lebih dari 0, kurangi students dengan 1
+3.Jika students memiliki kuku panjang maka dihukum, Selain itu dipuji
+>>>>>>> 6da23643c546edfe532e97f79052e391f2419991
